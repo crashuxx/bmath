@@ -1,5 +1,4 @@
 #include "AddNumber.h"
-#include <memory.h>
 
 Number *AddNumber::execute(Number &a, Number &b) {
     size_t length = (a.getLength() > b.getLength() ? a.getLength() : b.getLength()) + 1;
